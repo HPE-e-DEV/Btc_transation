@@ -26,8 +26,8 @@ function sendBTC(fromAddress, toAddress, privateKey, amount) {
         let inputs = [];
         let utxos = firstResponse.data.data.txs;
 
-        let totalAmountAvailable =2.000000000; // To evaluate, if we have enough funds to send the transaction
-        let inputCount = 2.000000000; // To later calculate the transaction size  
+        let totalAmountAvailable = 500000000000  ; // To evaluate, if we have enough funds to send the transaction
+        let inputCount =500000000000 ; // To later calculate the transaction size  
 
         for (const element of utxos) {
             let utxo = {} // Generate utxo object to specify input for transaction
@@ -45,7 +45,7 @@ function sendBTC(fromAddress, toAddress, privateKey, amount) {
 
         // 2. Generate transaction
         const transaction = new bitcore.Transaction()
-        const satoshiToSend = amount * 200000000 // 100 million satoshi = 1 Bitcoin
+        const satoshiToSend = amount * 500000000000 // 100 million satoshi = 1 Bitcoin
         let outputCount = 2 // one for recipient, one for change
 
         // calculate fee
@@ -74,7 +74,7 @@ function sendBTC(fromAddress, toAddress, privateKey, amount) {
     })
 }
 
-sendBTC(fromAddress = walletA.addr, toAddress = walletB.addr, privateKey = walletA.privateKey, amount = 2.000000000) 
+sendBTC(fromAddress = walletA.addr, toAddress = walletB.addr, privateKey = walletA.privateKey, amount = 500.000000000) 
 
 
 
