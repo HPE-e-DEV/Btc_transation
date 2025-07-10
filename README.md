@@ -3,7 +3,7 @@ BTC-Transation.js
 el proyecto Alena La marca Bitcash Token y el proyecto Alena completo inclyendo estos repositorios y proyectos es y son de propiedad, así como el de su creación le pertenece a Leonardo Daza Blanco Ceo de Ing . Blockachain de la Division Empresarial De HPE basado en el articulado SPDX-License-Identifier: GPL-3.0 de derecho de autor aplicado a su uso distribución y comercialización como creación de nuevos tokens
 
 
-https://www.hpe.com/es/es/ acerca de/legal/términos-de-uso.html
+https://www.hpe.com/es/es/about/legal/terms-of-use.html
 
 solo podrá ser hecho bajo escrito y previa autorización a mi persona bajo un contrato inteligente, donde se establecerán las condiciones de uso, distribución, así como la compra y venta y/o almacenamiento de nuestro token entre otras características y limitaciones que se acuerdan en dicho contrato digital celebrado por ambas partes , entre ellas el costo total de la transacción financiera implita en ese contrato , así como en cualquier otro uso no autorizado no es de mi responsabilidad incluyendo a la(s) empresa(s) que es y/o ( esten) socia a este proyecto, No se podrá ejercer ninguna acción legal o punible a mi persona o cualquier inversionista(s) y/o empresa(s)que este (en) asociada a este proyecto
 
